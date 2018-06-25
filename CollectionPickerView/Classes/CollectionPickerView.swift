@@ -274,7 +274,6 @@ public class CollectionPickerView: UIView {
         }
         
         selectedIndex = index
-        self.delegate?.collectionView?(collectionView, didSelectItemAt: indexPath)
         
         /*
          selectedItem = item
